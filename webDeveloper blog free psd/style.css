@@ -1,0 +1,678 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header_wrap {
+
+  background-color: black;
+}
+
+.header {
+  margin: 0 auto;
+  width: 74%;
+  display: flex;
+  background-color:black;
+
+}
+
+.name_logo__wrap {
+  margin-top: 46px;
+  margin-right: 35px;
+}
+.name_logo {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav__wrap {
+  display: flex;
+  margin-right: 4%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+.nav-itm {
+  margin-top: 53px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+
+.burger-btn {
+  display: none;
+  font-size: 25px;
+  color: white;
+  margin-top: 45px;
+}
+.nav-itm_wrap {
+  display: flex;
+  margin-left: 38px;
+
+
+}
+.menu_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-itm:hover {
+  border-bottom: 3px solid #fcac45;
+  transition: all 0.1s;
+}
+
+.welcome_wrap {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 215px;
+  padding-bottom: 420px;
+}
+
+.welcome_wrap h1 {
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #8c8c8c;
+}
+.welcome_wrap h1 span {
+  color: #fcac45;
+}
+.welcome_wrap p {
+  color: #828282;
+}
+
+.welcome_wrap p span {
+  color: #d4d4d4;
+  font-weight: 800;
+}
+
+.aleft {
+  width: 100%
+}
+
+.aright {
+  margin-left: 175px;
+}
+
+.aright p {
+  margin: 35px 0 45px 0 ;
+  color: #6c6c6c;
+  font-size: 18px;
+  text-align: left;
+}
+
+.aright h1 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 3px solid #fcac45;
+}
+
+.aright h1 span {
+  font-weight: bold;
+}
+
+.aright li span {
+  font-weight: bold;
+}
+.aright h1 {
+  height: fit-content;
+}
+li {
+  list-style: none;
+}
+
+.list {
+  color: #5a5a5a;
+  text-align: left;
+  display: flex;
+  align-self: center;
+  font-size: 16px;
+  padding-left: 25px;
+  background: url('limark.png') no-repeat 0px;
+}
+.about {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.block74 {
+  width: 74%;
+  margin: 0 auto;
+}
+
+.line {
+  padding: 0 5px 0 5px;
+}
+
+.team_title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.team_title p{
+  display: inline-block;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 44px;
+}
+
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: #fcac45;
+}
+
+.team_wrap {
+  display: flex;
+  background-color: black;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+}
+
+.member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 170px;
+}
+
+.member_name {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+.member_prof {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.member_description {
+  color: white;
+  font-size: 14px;
+  margin-left: 45px;
+  text-align: center;
+}
+
+.services_title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 55px;
+  align-items: center;
+}
+
+.services_title p {
+  display: inline-block;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 44px;
+}
+
+.services_wrap {
+  display: flex;
+  background-color: white;
+}
+
+.services_description {
+  color: #787878;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.services_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 100px;
+}
+
+.services_name {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.services-card_description {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.clients_wrap {
+  display: flex;
+  background-color: black;
+}
+
+.clients_title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.clients_title p {
+  font-size: 44px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+}
+
+.clients_title span {
+  margin-top: 30px;
+  font-size: 44px;
+  font-weight: 700;
+  color: white;
+}
+
+.clients_companies {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 210px;
+}
+
+.company {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.our-works_wrap {
+  display: flex;
+  background-color: white;
+}
+
+.our-works_title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.our-works_title p {
+  font-size: 44px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: black;
+}
+
+.our-works_title span {
+  margin-top: 30px;
+  font-size: 44px;
+  font-weight: 700;
+  color: black;
+}
+
+.our-works_description {
+  max-width: 83%;
+  margin: 0 auto;
+}
+
+.pic_container {
+  max-width: 83%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+
+
+.our-works_description p{
+  margin-bottom: 180px;
+  color: #6c6c6c;
+  text-align: center;
+}
+
+
+.trendan_container {
+  display: flex;
+  justify-content: center;
+}
+
+.limited_container {
+  display: flex;
+  justify-content: center;
+}
+
+.phone_container {
+  display: flex;
+  justify-content: center;
+}
+
+.pic_work {
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+.testimonials_wrap {
+  display: flex;
+  background-color: black;
+}
+
+.testimonials_title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 117px;
+}
+
+.testimonials_title p {
+  font-size: 44px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: white;
+}
+
+.testimonials_title span {
+  margin-top: 30px;
+  font-size: 44px;
+  font-weight: 700;
+  color: white;
+}
+
+.testimonials_description {
+ text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.testimonials_copyrights{
+  color: #b2b2b2;
+  text-align: center;
+  margin-bottom: 175px;
+}
+.testimonials_copyrights span {
+  font-weight: bold;
+}
+
+
+
+.contact_wrap {
+  display: flex;
+  background-color: white;
+}
+
+.contact_title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 55px;
+}
+
+.contact_title p {
+  font-size: 44px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.contact_description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #b2b2b2;
+  margin-bottom: 100px;
+}
+
+.block50 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form_names {
+  color: #7d7d7d;
+  padding-bottom: 10px;
+}
+.req_star {
+  color: red;
+}
+
+.name_input {
+  display: flex;
+  width: 100%;
+}
+
+.email_input {
+  width: 100%;
+  display: flex;
+}
+
+
+.fname {
+  border: #7d7d7d 1px solid;
+  font-size: 20px;
+  font-weight: 100;
+  padding-left: 10px;
+  height: 42px;
+}
+
+.form_email {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.first-form-line {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.textarea-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+textarea {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-weight: 100;
+  width: 100%;
+  height: 165px;
+  margin-bottom: 35px;
+}
+
+.form_send {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+
+.send-btn {
+  width: 165px;
+  height: 40px;
+  border: 0;
+  background-color: #fcac45;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 95px;
+  background-color: black;
+}
+
+.send-btn:hover {
+  transform: scale(1.05);
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+.res-les280px {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+  .our-works_description {
+      max-width: 100%;
+  }
+  .pic_container {
+      max-width: 100%;
+  }
+}
+
+@media screen  and (max-width: 1453px) {
+  .list_clients {
+    background: url('limark.png') no-repeat 0px 4px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+
+  .list_mission {
+    background: url('limark.png') no-repeat 0px 4px;
+  }
+    .burger-btn {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 1382px) {
+  .list_skills {
+    background: url('limark.png') no-repeat 0px 4px;
+  }  
+}
+
+@media screen and (max-width: 1275px) {
+  .aright li {
+      background: url('limark.png') no-repeat 0px 4px;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+  .aright {
+      margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+  .aright {
+    margin-left: 70px;
+  }
+  .burger-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .aleft img {
+    width: 100%;
+  }
+  .aright {
+    width: 60%;
+  }
+
+  .aright p {
+    margin: 15px 0 15px 0;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-itm {
+    display: none;
+  }
+
+  
+
+  .about {
+    flex-direction: column;
+  }
+
+  .aleft {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .aright {
+    margin: 0 auto;
+  }
+
+  .nav {
+    margin-left: 0;
+    background-color: black;
+  }
+  .burger-btn {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 280px) {
+  .header, main, footer {
+    display: none;
+  }
+  body {
+    background-color: lightblue;
+    
+  }
+  .res-les280px {
+    display: block;
+  }
+}
